@@ -1,0 +1,1023 @@
+<html lang="ar">
+
+<!--
+    google fonts
+    bootstrap 5.0.2
+    swiperjs 8.0.7
+    wowjs
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucky Market">
+    <meta name="description" content="Lucky Market, a platform for e-stores">
+    <link rel="icon" href="img/logo.webp">
+
+    <title>
+        الصفحة الرئيسية
+        -
+        لاكي ماركت
+    </title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- linawesome -->
+    <link rel="stylesheet" href="css/lineawesome/css/line-awesome.min.css">
+
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="css//swiper.min.css" />
+
+    <!-- bootstrap (rtl arabic) -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!--! custom main css !-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- loading -->
+    <!-- <div class="loader-layer">
+        <div class='loader'>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="notification-container">
+        <div class="icon-status success">
+            <i class="las la-check"></i>
+        </div>
+
+        <p class="notification-text">
+            تم إنجاز المهمة بنجاح
+        </p>
+
+        <a href="#0" class="close-btn">
+            <i class="las la-times"></i>
+        </a>
+    </div>
+
+
+    <div class="page-container">
+        <div class="not-footer">
+
+            <div class="page-header">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.webp" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="how-to-buy.html">كيفية الشراء</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="how-to-sell.html">كيفية البيع</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="plans.html">الأسعار</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="las la-language"></i>
+                                        اللغات
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">العربية</a></li>
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="las la-money-bill-wave"></i>
+                                        عملات الدفع
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-pound-sign"></i>
+                                                جنيه مصري
+
+                                                ( المستخدم حاليا )
+                                            </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-euro-sign"></i>
+                                                يورو
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-dollar-sign"></i>
+                                                دولار أمريكي
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">تسجيل الدخول</a>
+                                </li>
+                                <li class="nav-item create-store">
+                                    <a class="nav-link btn" href="register.html">انشيء متجرك مجانًا</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="page-body" id="Home">
+
+                <section class="banner">
+                    <div class="layer"> 
+                        <div class="container"> 
+                            <!-- slider using swiperjs -->  
+                            <div class="slider-container">  
+                                <div class="swiper bannerswiper">   
+                                    <div class="swiper-wrapper">    
+                                        <div class="swiper-slide">
+                                            <img src="img/banners/banner1.webp" alt="banner">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/banners/banner2.webp" alt="banner">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/banners/banner3.webp" alt="banner">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/banners/banner4.webp" alt="banner">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="container">
+
+                    <section class="promoted-products">
+                        <div class="section-title-container">
+                            <h3 class="section-title">
+                                <!-- Featured products from our stores -->
+
+                                منتجات مميزة لأكثر من متجر
+                            </h3>
+                        </div>
+                        <div class="container-fluid">
+
+                            <div class="products row ">
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/200le_1.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+
+                                                    Lucky Helmet
+
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/913244366_1.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        حساب الثانى
+
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/100le_2.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        Helmet Lucky
+
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/season2acc_1.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        حساب السيزون الثانى
+
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/913244366_1.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        حساب عشوائي الثانى
+
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/season2acc_1.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        السيزون الثانى
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/200le_1.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        السيزون الثانى
+
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#0">
+                                        <div class="card">
+                                            <div class="inner-card"></div>
+                                            <div class="image-container">
+
+                                                <img src="img/products/100le_2.webp" alt="product">
+
+                                                <span class="overlay-layer">
+                                                    <span class="icon">
+                                                        <i class="las la-shopping-cart"></i>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="cardcontainer">
+                                                    <h5 class="card-title">
+                                                        حساب عشوائي
+
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="features">
+
+                        <div class="section-title-container">
+                            <h3 class="section-title">
+                                مزايا المنصة
+                            </h3>
+                        </div>
+                        <div class="container-fluid row">
+
+                            <div class="col-md-4 col-6">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+
+                                        <i class="las la-store"></i>
+
+                                    </div>
+
+                                    <div class="feature-details">
+                                        <h3> نظام تسويق للمنتجات </h3>
+                                        <p class="text-muted">
+                                            نظام يقوم بالعمل تلقائى بعد اضافة منتج للظهور فى محركات بحث جوجل لزيادة
+                                            المبيعات لك
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-6">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+
+                                        <i class="las la-truck"></i>
+
+                                    </div>
+
+                                    <div class="feature-details">
+                                        <h3>نظام تسليم المنتج فورى</h3>
+                                        <p class="text-muted">نظام ارسال المنتج للعميل ( الحساب او كود تفعيل ) فى نفس
+                                            لحظة الدفع
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-6">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+
+                                        <i class="las la-wallet"></i>
+
+                                    </div>
+
+                                    <div class="feature-details">
+                                        <h3>نظام تحصيل الاموال</h3>
+                                        <p class="text-muted">نوفر لك نظام سهل لختيار وسيلة الدفع التى تناسبك لستلام
+                                            اموالك بيها مثل ( فودافون كاش - باى بال - بايير - بطاقات هدايا أمازون -
+                                            ايرتم )
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-6">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+
+                                        <i class="las la-marker"></i>
+
+                                    </div>
+
+                                    <div class="feature-details">
+                                        <h3>تصميم جاهز للمتجر </h3>
+                                        <p class="text-muted">لتوفير الوقت يوجد تصميم جاهز يناسب التجاره الرقمية وسهل
+                                            الاستخدام ويوجد جميع المزايا التى تحتاجها لبدء مشروعك
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-6">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+
+                                        <i class="las la-headset"></i>
+
+                                    </div>
+
+                                    <div class="feature-details">
+                                        <h3>دعم فنى متكامل للمنصة</h3>
+                                        <p class="text-muted">فى حال وجود اى مشكله مع التاجر او العميل يوجد دعم فنى على
+                                            مدار اليوم لحل مشكلتك فى اسرع وقت
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-6">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+
+                                        <i class="las la-shield-alt"></i>
+
+                                    </div>
+
+                                    <div class="feature-details">
+                                        <h3>أمان - حماية المنصة</h3>
+                                        <p class="text-muted">يوجد عدة طبقات تشفير للبيانات مما يجعل جميع التعامولات
+                                            امنة ولا يمكن اختراق او تسريب اى معلومات من منصة
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="pricing">
+                        <div class="section-title-container">
+                            <h3 class="section-title">الباقات</h3>
+                        </div>
+
+                        <div class="pricing-table row">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="pricing-item basic wow animate__animated animate__fadeInUp"
+                                    data-wow-delay="0.4s">
+                                    <div class="pricing-title">باقة الناشئين</div>
+                                    <div class="pricing-price"><span class="">مجانا</span></div>
+                                    <ul class="pricing-features">
+                                        <li>عدد لا محدود من ( الحسابات - الاكواد ) داخل المنتجات</li>
+                                        <li>عدد لا محدود من العملاء</li>
+                                        <li>عدد لا محدود من الطلبات</li>
+                                        <li>تصنيف منتج ( بى سى - موبايل - اكس بوكس - سونى )</li>
+                                        <li>ارسال بيانات ( الحسابات , كود ) فورى</li>
+                                    </ul>
+                                    <div class="text-center"><a href="register.html" class="btn pricing-button"
+                                            data-wpel-link="external" target="_blank"
+                                            rel="nofollow external noopener noreferrer">اختر الباقة</a></div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12 col-md-4">
+                                <div class="pricing-item good wow animate__animated animate__fadeIn"
+                                    data-wow-delay="0.8s">
+                                    <h6 class="ribbon pricing-ribbon">
+                                        خصم
+                                    </h6>
+                                    <div class="pricing-title">باقة كبار الشخصيات </div>
+                                    <div class="pricing-price"><span class=""> ج.م 300 </span> <b class="">/ شهر </b>
+                                    </div>
+                                    <ul class="pricing-features">
+                                        <li>جميع مميزات باقة الناشئين</li>
+                                        <li>التحكم بتصميم المتجر</li>
+                                        <li>عدد لا مدود من الاقسام - الاقسام الفرعية</li>
+                                        <li>عدد لا محدود من منتجات </li>
+                                        <li>كوبون خصم , شريط خصم على منتج</li>
+                                        <li class="info-col">
+                                            <p class="info-text">
+                                                الإيميل التسويقي
+                                                <button class="info-btn" data-bs-container="body" role="button"
+                                                    data-bs-toggle="popover" data-bs-placement="bottom"
+                                                    data-bs-trigger="click hover focus"
+                                                    data-bs-content="نظام يتيح لك ان ترى ايميلات عملائك بغرض الترويج , ويتيح لك تحميل جميع الايميلات فى ملف">
+                                                    <i class="las la-info"></i>
+                                                </button>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <div class="text-center"><a href="register.html" class="btn pricing-button"
+                                            data-wpel-link="external" target="_blank"
+                                            rel="nofollow external noopener noreferrer">اختر الباقة</a></div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-4">
+                                <div class="pricing-item professional wow animate__animated animate__fadeInUp"
+                                    data-wow-delay="0.6s">
+                                    <div class="pricing-title">باقة بائع المحترف</div>
+                                    <div class="pricing-price"><span class=""> ج.م 700 </span> <b class="">/ شهر </b>
+                                    </div>
+                                    <ul class="pricing-features">
+                                        <li>جميع مميزات باقة كبار الشخصيات</li>
+                                        <li class="col info-col">
+
+                                            <p class="info-text">
+                                                التحكم في اظهار واخفاء التقييمات
+
+                                                <button class="info-btn" data-bs-container="body" role="button"
+                                                    data-bs-toggle="popover" data-bs-placement="bottom"
+                                                    data-bs-trigger="click hover focus"
+                                                    data-bs-content="هذا النظام يجعلك تتحكم فى اظهار او اخفاء التعليقات الغير مرغوب فيها مثل السب ,هذا نظام لا يجعلك تستطيع اخفاء تقييمات النجوم على المنتج مجرد اخفاء التعليق للمصداقية">
+                                                    <i class="las la-info"></i>
+                                                </button>
+                                            </p>
+
+                                        </li>
+                                        <li>حجب العملاء</li>
+                                        <li>اللغة الانجليزية</li>
+                                        <li>اضافة ضمان على منتجاتك</li>
+                                        <li>تعديل رمز الموقع</li>
+                                    </ul>
+                                    <div class="text-center mt-auto"><a href="register.html" class="btn pricing-button"
+                                            data-wpel-link="external" target="_blank"
+                                            rel="nofollow external noopener noreferrer">اختر الباقة</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center pricing-compare" data-wow-delay="0.1s">
+                            <a href="plans.html" class=" btn pricing-compare-link" data-wpel-link="internal">مقارنة
+                                الباقات</a>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="download">
+                    <div class="banner">
+                        <div class="layer row">
+                            <div class="col-12">
+                                <h2>قم بتحميل التطبيق الآن</h2>
+                            </div>
+
+                            <div class="col-12 btn-container">
+
+                                <a class="app-btn blu flex vert" href="http:google.com">
+                                    <i class="lab la-google-play"></i>
+                                    <p>Get it on <br /> <span class="big-txt">Google Play</span></p>
+                                </a>
+
+
+                                <a class="app-btn blu flex vert" href="http:apple.com">
+                                    <i class="lab la-apple"></i>
+                                    <p>Available on the <br /> <span class="big-txt">App Store</span></p>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="container">
+
+                    <section class="blog">
+                        <div class="section-title-container">
+                            <h3 class="section-title">اقرأ اخر التحديثات في المدونة خاصتنا</h3>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-sm-12 col-md-5">
+                                <div class="card mb-4 shadow-sm h-md-250">
+                                    <div class="image-container">
+                                        <a href="#0">
+                                            <img src="img/products/200le_1.webp" class="card-img-top flex-auto">
+                                        </a>
+                                    </div>
+                                    <div class="card-body d-flex flex-column align-items-start">
+                                        <a href="#0"> <strong class="d-inline-block mb-2 text-danger">تقنية</strong></a>
+                                        <h3 class="mb-0">
+                                            <a class="text-dark" href="#">كلام مهم خالص</a>
+                                        </h3>
+                                        <div class="mb-1 text-muted">14 سبتمبر</div>
+                                        <p class="card-text mb-auto">This is a wider card with supporting text below as
+                                            a natural lead-in to additional content.</p>
+                                        <a href="#0" class="btn mt-1">إكمال القراءة</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 row">
+                                <div class="col-6">
+                                    <div class="card mb-4 shadow-sm h-md-250">
+                                        <div class="image-container">
+                                            <a href="#0">
+                                                <img src="img/products/200le_1.webp" class="card-img-top flex-auto">
+                                            </a>
+                                        </div>
+                                        <div class="card-body d-flex flex-column align-items-start">
+                                            <a href="#0"> <strong
+                                                    class="d-inline-block mb-2 text-primary">ألعاب</strong></a>
+                                            <h3 class="mb-0">
+                                                <a class="text-dark" href="#">كلام مهم</a>
+                                            </h3>
+                                            <div class="mb-1 text-muted">12 نوفمبر</div>
+                                            <p class="card-text mb-auto">This is a wider card with supporting text below
+                                                as
+                                                a natural lead-in to additional content.</p>
+                                            <a href="#0" class="btn mt-1">إكمال القراءة</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card mb-4 shadow-sm h-md-250">
+                                        <div class="image-container">
+                                            <a href="#0">
+                                                <img src="img/products/200le_1.webp" class="card-img-top flex-auto">
+                                            </a>
+                                        </div>
+                                        <div class="card-body d-flex flex-column align-items-start">
+                                            <a href="#0"> <strong
+                                                    class="d-inline-block mb-2 text-primary">ألعاب</strong></a>
+                                            <h3 class="mb-0">
+                                                <a class="text-dark" href="#">كلام خطير</a>
+                                            </h3>
+                                            <div class="mb-1 text-muted">2 مارس</div>
+                                            <p class="card-text mb-auto">This is a wider card with supporting text below
+                                                as
+                                                a natural lead-in to additional content.</p>
+                                            <a href="#0" class="btn mt-1">إكمال القراءة</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card mb-4 shadow-sm h-md-250">
+                                        <div class="image-container">
+                                            <a href="#0">
+                                                <img src="img/products/200le_1.webp" class="card-img-top flex-auto">
+                                            </a>
+                                        </div>
+                                        <div class="card-body d-flex flex-column align-items-start">
+                                            <a href="#0"> <strong
+                                                    class="d-inline-block mb-2 text-primary">ألعاب</strong></a>
+                                            <h3 class="mb-0">
+                                                <a class="text-dark" href="#">كلام خطير</a>
+                                            </h3>
+                                            <div class="mb-1 text-muted">2 مارس</div>
+                                            <p class="card-text mb-auto">This is a wider card with supporting text below
+                                                as
+                                                a natural lead-in to additional content.</p>
+                                            <a href="#0" class="btn mt-1">إكمال القراءة</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card mb-4 shadow-sm h-md-250">
+                                        <div class="image-container">
+                                            <a href="#0">
+                                                <img src="img/products/200le_1.webp" class="card-img-top flex-auto">
+                                            </a>
+                                        </div>
+                                        <div class="card-body d-flex flex-column align-items-start">
+                                            <a href="#0"> <strong
+                                                    class="d-inline-block mb-2 text-primary">ألعاب</strong></a>
+                                            <h3 class="mb-0">
+                                                <a class="text-dark" href="#">كلام خطير جدًا</a>
+                                            </h3>
+                                            <div class="mb-1 text-muted">أمس</div>
+                                            <p class="card-text mb-auto">This is a wider card with supporting text below
+                                                as
+                                                a natural lead-in to additional content.</p>
+                                            <a href="#0" class="btn mt-1">إكمال القراءة</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="suggestions">
+                        <div class="section-title-container flex-column">
+                            <h3 class="section-title">أرسل لنا اقتراحاتك</h3>
+                            <p class="mt-2">إذا كان لديك إقتراحات يمكنها تطوير المنصة شاركها معنا</p>
+                        </div>
+                        <form method="POST" action="" class="row">
+
+                            <div class="col-12 col-md-6">
+                                <div class="text">
+                                    <i class="las la-user-tie"></i>
+                                    <input type="text" placeholder="الاسم" required>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="massege">
+                                    <textarea placeholder="رسالتك" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="submit" value=" ارسال">
+                                </div>
+
+                            </div>
+                        </form>
+
+
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <section class="social-media justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>تواصل معنا عبر السوشيال ميديا:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="#0" class="me-2 text-reset facebook">
+                        <i class="lab la-facebook-square"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset youtube">
+                        <i class="lab la-youtube"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset discord">
+                        <i class="lab la-discord"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset email">
+                        <i class="las la-envelope"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset telegram">
+                        <i class="lab la-telegram-plane"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset instagram">
+                        <i class="lab la-instagram"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="page-links">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="description col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Lucky Market
+                            </h6>
+                            <p>
+                                المنصة الأسهل للتجارة الإلكترونية,تمكن التاجر بتوصيل المنتج للعميل بنظام تسليم فورى و
+                                نوفر عدة طرق لدفع ونوفر لك موقع مجانى ودعم متكامل لخدمتكم على مدار يوم.
+
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="legal col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                قانوني
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="terms.html" class="text-reset"> الشروط والأحكام</a>
+                                </li>
+
+                                <li>
+                                    <a href="DMCA.html" class="text-reset">حقوق المؤلف</a>
+                                </li>
+
+                                <li>
+                                    <a href="complaints.html" class="text-reset">الشكاوى والتعويضات</a>
+                                </li>
+
+                                <li>
+                                    <a href="privacy.html" class="text-reset">الخصوصية</a>
+                                </li>
+
+                                <li>
+                                    <a href="cookies.html" class="text-reset">ملفات تعريف الارتباط</a>
+                                </li>
+
+                                <li>
+                                    <a href="faq.html" class="text-reset">اسئلة واجوبة</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!--   Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="pages col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                روابط
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="plans.html" class="text-reset">الأسعار</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" class="text-reset">المدونة</a>
+                                </li>
+                                <li>
+                                    <a href="how-to-buy.html" class="text-reset">كيفية الشراء</a>
+                                </li>
+                                <li>
+                                    <a href="how-to-sell.html" class="text-reset">كيفية البيع</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html" class="text-reset">من نحن</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="pay-ways col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                طرق الدفع
+                            </h6>
+                            <ul class="con">
+                                <li>
+                                    <img src="img/icons/lucky-market.webp" alt="lucky-market wallet">
+                                </li>
+                                <li>
+                                    <img src="img/icons/master-card.webp" alt="master card">
+                                </li>
+                                <li>
+                                    <img src="img/icons/paypal.webp" alt="paypal">
+                                </li>
+                                <li>
+                                    <img src="img/icons/Visa.webp" alt="Visa">
+                                </li>
+                                <li>
+                                    <img src="img/icons/masary.webp" alt="masary">
+                                </li>
+                                <li>
+                                    <img src="img/icons/CIB-wallet.webp" alt="CIB wallet">
+                                </li>
+                                <li>
+                                    <img src="img/icons/aman.webp" alt="aman">
+                                </li>
+                                <li>
+                                    <img src="img/icons/airtm.webp" alt="airtm">
+                                </li>
+                                <li>
+                                    <img src="img/icons/meeza.webp" alt="meeza">
+                                </li>
+                                <li>
+                                    <img src="img/icons/momken.webp" alt="momken">
+                                </li>
+                                <li>
+                                    <img src="img/icons/etisalat-cash.webp" alt="etisalat cash">
+                                </li>
+                                <li>
+                                    <img src="img/icons/abk-ahly.webp" alt="abk ahly">
+                                </li>
+                                <li>
+                                    <img src="img/icons/vodafone-cash.webp" alt="vodafone cash">
+                                </li>
+                                <li>
+                                    <img src="img/icons/orange-cash.webp" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/etisalat-cash.webp" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/qahera-cash.webp" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright:
+                <a class="text-reset fw-bold" href="index.html">Lucky Market</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiperjs -->
+    <script src="js/swiper.bundle.min.js"></script>
+    <script src="js/swiperjs.js"></script>
+
+    <!-- Wowjs -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--! custom main script !-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

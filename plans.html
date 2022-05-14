@@ -1,0 +1,1200 @@
+<html lang="ar">
+
+<!--
+    google fonts
+    bootstrap 5.0.2
+    swiperjs 8.0.7
+    wowjs
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucky Market">
+    <meta name="description" content="Lucky Market, a platform for e-stores">
+    <link rel="icon" href="img/logo.webp">
+
+    <title>
+        قائمة الأسعار
+        -
+        لاكي ماركت
+    </title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- linawesome -->
+    <link rel="stylesheet" href="css/lineawesome/css/line-awesome.min.css">
+
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="css//swiper.min.css" />
+
+    <!-- bootstrap (rtl arabic) -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!--! custom main css !-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="page-container">
+        <div class="not-footer">
+
+            <div class="page-header">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.webp" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="how-to-buy.html">كيفية الشراء</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="how-to-sell.html">كيفية البيع</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="plans.html">الأسعار</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="las la-language"></i>
+                                        اللغات
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">العربية</a></li>
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="las la-money-bill-wave"></i>
+                                        عملات الدفع
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-pound-sign"></i>
+                                                جنيه مصري
+
+                                                ( المستخدم حاليا )
+                                            </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-euro-sign"></i>
+                                                يورو
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-dollar-sign"></i>
+                                                دولار أمريكي
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">تسجيل الدخول</a>
+                                </li>
+                                <li class="nav-item create-store">
+                                    <a class="nav-link btn" href="register.html">انشيء متجرك مجانًا</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="page-body" id="plans">
+
+                <div class="container">
+                    <div class="table-striped">
+                        <div class="header mainHeader row">
+                            <span class="col">
+                                الباقات الشهرية
+                            </span>
+                            <span class="col basic">
+                                باقة الناشئين
+                            </span>
+                            <span class="col good">
+                                باقة كبار الشخصيات
+                            </span>
+                            <span class="col professional">
+                                باقة بائع المحترف
+                            </span>
+                        </div>
+
+                        <div class="row cost">
+                            <span class="col">
+                                الاشتراك الشهري
+                            </span>
+                            <span class="col basic">
+                                <div class="price">
+                                    <!-- <small class="text-muted">EGP</small> -->
+                                    <big>
+                                        مجانًا
+                                    </big>
+
+                                </div>
+                            </span>
+                            <span class="col good">
+                                <div class="price">
+                                    <!-- <small class="text-muted">EGP</small> -->
+                                    <big>
+
+                                        300 ج.م / شهر
+                                    </big>
+
+                                </div>
+                            </span>
+                            <span class="col professional">
+                                <div class="price">
+                                    <!-- <small class="text-muted">EGP</small> -->
+                                    <big>
+
+                                        700 ج.م / شهر
+                                    </big>
+
+                                </div>
+                            </span>
+                        </div>
+
+                        <div class="header row">
+                            <span class="col d-flex justify-content-center">المميزات الأساسية</span>
+                        </div>
+
+
+                        <div class="row">
+                            <span class="col">
+                                حسابات داخل المنتج لا محدودة
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اكواد داخل المنتج لا محدودة
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                منتجات لا محدودة
+                            </span>
+                            <span class="col">
+                                16
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                أقسام لا محدودة
+                            </span>
+                            <span class="col">
+                                3
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                أقسام فرعية لا محدودة
+                            </span>
+                            <span class="col">
+                                6
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                الدفع الالكتروني
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اخفاء لوجو المنصة
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                دعم العملات
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                دعم اللغة الإنجليزية
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                عملاء لا محدودين
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                التقييمات
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col info-col">
+
+                                <p class="info-text">
+                                    التحكم في اظهار واخفاء التقييمات
+
+                                    <button class="info-btn" data-bs-container="body" role="button"
+                                        data-bs-toggle="popover" data-bs-placement="bottom"
+                                        data-bs-trigger="click hover focus"
+                                        data-bs-content="هذا النظام يجعلك تتحكم فى اظهار او اخفاء التعليقات الغير مرغوب فيها مثل السب ,هذا نظام لا يجعلك تستطيع اخفاء تقييمات النجوم على المنتج مجرد اخفاء التعليق للمصداقية">
+                                        <i class="las la-info"></i>
+                                    </button>
+                                </p>
+
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                شهادة SSL مجانية
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                حجب العملاء
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                وضع الصيانة
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                خدمة عملاء على مدار اليوم
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                عمولة المبيعات
+                            </span>
+                            <span class="col">
+                                15%
+                            </span>
+                            <span class="col">
+                                10%
+                            </span>
+                            <span class="col">
+                                7%
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                أقل مبلغ يمكن سحبه
+                            </span>
+                            <span class="col">
+                                180 ج.م
+                            </span>
+                            <span class="col">
+                                50 ج.م
+                            </span>
+                            <span class="col">
+                                15 ج.م
+                            </span>
+                        </div>
+
+                        <div class="header row">
+                            <span class="col d-flex justify-content-center">مميزات تصنيف المنتج</span>
+                        </div>
+
+
+                        <div class="row ">
+                            <span class="col">
+                                <i class="lab la-playstation"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <i class="las la-desktop"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <i class="las la-mobile"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <i class="lab la-xbox"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+
+
+
+                        <div class="header row">
+                            <span class="col d-flex justify-content-center">التسويق</span>
+                        </div>
+
+
+                        <div class="row">
+                            <span class="col">
+                                كوبون التخفيض
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                ضمان على المنتج
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                تحسين محركات البحث SEO
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                شريط تخفيض أعلى المنتج
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اعلان متجرك بصفحة رئيسية للمنصة
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col info-col">
+                                <p class="info-text">
+                                    الإيميل التسويقي
+
+                                    <button class="info-btn" data-bs-container="body" role="button"
+                                        data-bs-toggle="popover" data-bs-placement="bottom"
+                                        data-bs-trigger="click hover focus"
+                                        data-bs-content="نظام يتيح لك ان ترى ايميلات عملائك بغرض الترويج , ويتيح لك تحميل جميع الايميلات فى ملف">
+                                        <i class="las la-info"></i>
+                                    </button>
+                                </p>
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="header row">
+                            <span class="col d-flex justify-content-center">التصميم</span>
+                        </div>
+
+
+                        <div class="row">
+                            <span class="col">
+                                تعديل الوجو
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                تعديل خلفية الموقع
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                تعديل favicon icon
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اضافة قائمة بمزايا المتجر
+                            </span>
+                            <span class="col">
+                                <i class="las la-times"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اضافة شروط واحكام لمتجرك
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اضافة من نحن
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اضافة DMCA
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                اضافة أيكونات سوشيال
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="header row">
+                            <span class="col d-flex justify-content-center">طرق الدفع</span>
+                        </div>
+
+
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/visa_footer.webp" alt="visa-mastercard">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/lucky-market.webp" alt="lucky-market wallet">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/lucky-market-giftcard.webp" alt="lucky-market gift card">
+                                <small>بطاقة هدايا لاكي ماركت</small>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/masary.webp" alt="masary">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <i class="las la-wallet"></i>
+                                <big>
+                                    digital wallets
+                                </big>
+                                <small>
+                                    (vodafone cash, orange cash, etisalat cash ...)
+                                </small>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/paypal.webp" alt="paypal">
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/fawry.webp" alt="fawry">
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/aman.webp" alt="aman">
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/momken.webp" alt="momken">
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                            <span class="col">
+                                soon
+                            </span>
+                        </div>
+                        <div class="header row">
+                            <span class="col d-flex justify-content-center">طرق سحب الاموال</span>
+                        </div>
+
+
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/vodafone-cash.webp" alt="">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/paypal.webp" alt="">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/payeer.webp" alt="">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/airtm.webp" alt="">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <img src="img/icons/amazon-gift-card.webp" alt="">
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col">
+                                <i class="las la-wallet"></i>
+                                <big>
+                                    digital wallets
+                                </big>
+                                <small>
+                                    (vodafone cash, orange cash, etisalat cash ...)
+                                </small>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                            <span class="col">
+                                <i class="las la-check"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="row order-button">
+                            <span class="col">
+
+                            </span>
+                            <span class="col basic pricing-item">
+                                <a href="#0" class="btn pricing-button"> اشتراك </a>
+                            </span>
+                            <span class="col good pricing-item">
+                                <a href="#0" class="btn pricing-button"> اشتراك </a>
+                            </span>
+                            <span class="col professional pricing-item">
+                                <a href="#0" class="btn pricing-button"> اشتراك </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <footer class="page-footer text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <section class="social-media justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>تواصل معنا عبر السوشيال ميديا:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="#0" class="me-2 text-reset facebook">
+                        <i class="lab la-facebook-square"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset youtube">
+                        <i class="lab la-youtube"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset discord">
+                        <i class="lab la-discord"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset email">
+                        <i class="las la-envelope"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset telegram">
+                        <i class="lab la-telegram-plane"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset instagram">
+                        <i class="lab la-instagram"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="page-links">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="description col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Lucky Market
+                            </h6>
+                            <p>
+                                المنصة الأسهل للتجارة الإلكترونية,تمكن التاجر بتوصيل المنتج للعميل بنظام تسليم فورى و
+                                نوفر عدة طرق لدفع ونوفر لك موقع مجانى ودعم متكامل لخدمتكم على مدار يوم.
+
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="legal col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                قانوني
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="terms.html" class="text-reset"> الشروط والأحكام</a>
+                                </li>
+
+                                <li>
+                                    <a href="DMCA.html" class="text-reset">حقوق المؤلف</a>
+                                </li>
+
+                                <li>
+                                    <a href="complaints.html" class="text-reset">الشكاوى والتعويضات</a>
+                                </li>
+
+                                <li>
+                                    <a href="privacy.html" class="text-reset">الخصوصية</a>
+                                </li>
+
+                                <li>
+                                    <a href="cookies.html" class="text-reset">ملفات تعريف الارتباط</a>
+                                </li>
+
+                                <li>
+                                    <a href="faq.html" class="text-reset">اسئلة واجوبة</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!--   Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="pages col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                روابط
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="plans.html" class="text-reset">الأسعار</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" class="text-reset">المدونة</a>
+                                </li>
+                                <li>
+                                    <a href="how-to-buy.html" class="text-reset">كيفية الشراء</a>
+                                </li>
+                                <li>
+                                    <a href="how-to-sell.html" class="text-reset">كيفية البيع</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html" class="text-reset">من نحن</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="pay-ways col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                طرق الدفع
+                            </h6>
+                            <ul class="con">
+                                <li>
+                                    <img src="img/icons/lucky-market.webp" alt="lucky-market wallet">
+                                </li>
+                                <li>
+                                    <img src="img/icons/master-card.webp" alt="master card">
+                                </li>
+                                <li>
+                                    <img src="img/icons/paypal.webp" alt="paypal">
+                                </li>
+                                <li>
+                                    <img src="img/icons/Visa.webp" alt="Visa">
+                                </li>
+                                <li>
+                                    <img src="img/icons/masary.webp" alt="masary">
+                                </li>
+                                <li>
+                                    <img src="img/icons/CIB-wallet.webp" alt="CIB wallet">
+                                </li>
+                                <li>
+                                    <img src="img/icons/aman.webp" alt="aman">
+                                </li>
+                                <li>
+                                    <img src="img/icons/airtm.webp" alt="airtm">
+                                </li>
+                                <li>
+                                    <img src="img/icons/meeza.webp" alt="meeza">
+                                </li>
+                                <li>
+                                    <img src="img/icons/momken.webp" alt="momken">
+                                </li>
+                                <li>
+                                    <img src="img/icons/etisalat-cash.webp" alt="etisalat cash">
+                                </li>
+                                <li>
+                                    <img src="img/icons/abk-ahly.webp" alt="abk ahly">
+                                </li>
+                                <li>
+                                    <img src="img/icons/vodafone-cash.webp" alt="vodafone cash">
+                                </li>
+                                <li>
+                                    <img src="img/icons/orange-cash.webp" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/etisalat-cash.webp" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/qahera-cash.webp" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright:
+                <a class="text-reset fw-bold" href="index.html">Lucky Market</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiperjs -->
+    <script src="js/swiper.bundle.min.js"></script>
+    <script src="js/swiperjs.js"></script>
+
+    <!-- Wowjs -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--! custom main script !-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,389 @@
+<html lang="ar">
+
+<!--
+    google fonts
+    bootstrap 5.0.2
+    swiperjs 8.0.7
+    wowjs
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucky Market">
+    <meta name="description" content="Lucky Market, a platform for e-stores">
+    <link rel="icon" href="img/logo.webp">
+
+    <title>
+        تسجيل الدخول
+        -
+        لاكي ماركت
+    </title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- linawesome -->
+    <link rel="stylesheet" href="css/lineawesome/css/line-awesome.min.css">
+
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="css//swiper.min.css" />
+
+    <!-- bootstrap (rtl arabic) -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!--! custom main css !-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="page-container">
+        <div class="not-footer">
+
+            <div class="page-header">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.webp" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="how-to-buy.html">كيفية الشراء</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="how-to-sell.html">كيفية البيع</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="plans.html">الأسعار</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="las la-language"></i>
+                                        اللغات
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">العربية</a></li>
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="las la-money-bill-wave"></i>
+                                        عملات الدفع
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-pound-sign"></i>
+                                                جنيه مصري
+
+                                                ( المستخدم حاليا )
+                                            </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-euro-sign"></i>
+                                                يورو
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="las la-dollar-sign"></i>
+                                                دولار أمريكي
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">تسجيل الدخول</a>
+                                </li>
+                                <li class="nav-item create-store">
+                                    <a class="nav-link btn" href="register.html">انشيء متجرك مجانًا</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="page-body" id="login">
+                <div class="container">
+                    <section class="Login">
+                        <div class="row justify-content-center">
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-9 col-lg-7">
+                                <div class="login-wrap p-4 p-md-5">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <i class="las la-user-tie"></i>
+                                    </div>
+                                    <h3 class="text-center mb-4">قم بتسجيل الدخول إلى متجرك</h3>
+                                    <form action="" method="post" class="login-form">
+                                        <div class="form-group">
+                                            <div class="text">
+                                                <i class="las la-at"></i>
+                                                <input type="email" placeholder="البريد الالكتروني" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group d-flex">
+                                            <div class="text">
+                                                <i class="las la-key"></i>
+                                                <input type="password" placeholder="كلمة السر" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group d-md-flex">
+                                            <div class="">
+                                                <label class="checkbox-wrap checkbox-primary">تذكرني
+                                                    <input type="checkbox" checked>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="forgot-password">
+                                                <a href="#0">نسيت كلمة السر؟</a>
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-submit">
+                                            <button type="submit" class="btn submit">
+                                                تسجيل الدخول
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <section class="social-media justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>تواصل معنا عبر السوشيال ميديا:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="#0" class="me-2 text-reset facebook">
+                        <i class="lab la-facebook-square"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset youtube">
+                        <i class="lab la-youtube"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset discord">
+                        <i class="lab la-discord"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset email">
+                        <i class="las la-envelope"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset telegram">
+                        <i class="lab la-telegram-plane"></i>
+                    </a>
+                    <a href="#0" class="me-2 text-reset instagram">
+                        <i class="lab la-instagram"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="page-links">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="description col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Lucky Market
+                            </h6>
+                            <p>
+                                المنصة الأسهل للتجارة الإلكترونية,تمكن التاجر بتوصيل المنتج للعميل بنظام تسليم فورى و
+                                نوفر عدة طرق لدفع ونوفر لك موقع مجانى ودعم متكامل لخدمتكم على مدار يوم.
+
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="legal col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                قانوني
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="terms.html" class="text-reset"> الشروط والأحكام</a>
+                                </li>
+
+                                <li>
+                                    <a href="DMCA.html" class="text-reset">حقوق المؤلف</a>
+                                </li>
+
+                                <li>
+                                    <a href="complaints.html" class="text-reset">الشكاوى والتعويضات</a>
+                                </li>
+
+                                <li>
+                                    <a href="privacy.html" class="text-reset">الخصوصية</a>
+                                </li>
+
+                                <li>
+                                    <a href="cookies.html" class="text-reset">ملفات تعريف الارتباط</a>
+                                </li>
+
+                                <li>
+                                    <a href="faq.html" class="text-reset">اسئلة واجوبة</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!--   Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="pages col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                روابط
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="plans.html" class="text-reset">الأسعار</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" class="text-reset">المدونة</a>
+                                </li>
+                                <li>
+                                    <a href="how-to-buy.html" class="text-reset">كيفية الشراء</a>
+                                </li>
+                                <li>
+                                    <a href="how-to-sell.html" class="text-reset">كيفية البيع</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html" class="text-reset">من نحن</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="pay-ways col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                طرق الدفع
+                            </h6>
+                            <ul class="con">
+                                <li>
+                                    <img src="img/icons/lucky-market.webp" alt="lucky-market wallet">
+                                </li>
+                                <li>
+                                    <img src="img/icons/master-card.webp" alt="master card">
+                                </li>
+                                <li>
+                                    <img src="img/icons/paypal.webp" alt="paypal">
+                                </li>
+                                <li>
+                                    <img src="img/icons/Visa.webp" alt="Visa">
+                                </li>
+                                <li>
+                                    <img src="img/icons/masary.webp" alt="masary">
+                                </li>
+                                <li>
+                                    <img src="img/icons/CIB-wallet.webp" alt="CIB wallet">
+                                </li>
+                                <li>
+                                    <img src="img/icons/aman.webp" alt="aman">
+                                </li>
+                                <li>
+                                    <img src="img/icons/airtm.webp" alt="airtm">
+                                </li>
+                                <li>
+                                    <img src="img/icons/meeza.webp" alt="meeza">
+                                </li>
+                                <li>
+                                    <img src="img/icons/momken.webp" alt="momken">
+                                </li>
+                                <li>
+                                    <img src="img/icons/etisalat-cash.webp" alt="etisalat cash">
+                                </li>
+                                <li>
+                                    <img src="img/icons/abk-ahly.webp" alt="abk ahly">
+                                </li>
+                                <li>
+                                    <img src="img/icons/vodafone-cash.webp" alt="vodafone cash">
+                                </li>
+                                <li>
+                                    <img src="img/icons/orange-cash.webp" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/etisalat-cash.webp" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/qahera-cash.webp" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright:
+                <a class="text-reset fw-bold" href="index.html">Lucky Market</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiperjs -->
+    <script src="js/swiper.bundle.min.js"></script>
+    <script src="js/swiperjs.js"></script>
+
+    <!-- Wowjs -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--! custom main script !-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
