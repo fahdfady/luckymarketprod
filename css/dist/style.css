@@ -1825,6 +1825,7 @@ form .form-group.two-inputs .dropdown-container {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  margin: auto;
 }
 section.suggestions .form-group .text,
 form .form-group .text {

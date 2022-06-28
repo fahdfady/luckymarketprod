@@ -1,0 +1,374 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+::-moz-selection {
+  background: #c246c6;
+  color: fff;
+}
+
+::selection {
+  background: #c246c6;
+  color: fff;
+}
+
+::-webkit-input-placeholder {
+  text-transform: capitalize;
+}
+
+:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+::-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+::placeholder {
+  text-transform: capitalize;
+}
+
+html:lang(ar) {
+  direction: rtl;
+}
+
+html:lang(en) {
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  color: #212529;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+body {
+  background: #f8f8f8 !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "cairo", sans-serif;
+  text-transform: capitalize;
+  overflow-x: hidden;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: unset;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+.not-footer {
+  padding-bottom: 210px;
+}
+
+.page-header {
+  padding: 10px;
+  background: #252327;
+}
+
+a.navbar-brand {
+  padding: 10px 0px;
+  -webkit-margin-end: 20px;
+          margin-inline-end: 20px;
+}
+
+a.navbar-brand img {
+  width: 77px;
+  height: unset;
+  padding: 0px;
+}
+
+.page-body .container > * {
+  margin: 22px 0px;
+}
+
+button {
+  background: #91157e !important;
+  padding: 10px !important;
+  color: #ededed !important;
+  font-weight: 600 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #91157e;
+  border-radius: 6px;
+  -webkit-transition: .1s all linear;
+  transition: .1s all linear;
+}
+
+button small {
+  margin: 0px 3px;
+  font-size: 12px;
+}
+
+button:hover {
+  background: transparent !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.store {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  gap: 10px;
+}
+
+.store .store-name {
+  color: #91157e;
+}
+
+.store img {
+  width: 80px;
+  height: unset;
+}
+
+.product {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 18px 0px;
+}
+
+.product .product-name {
+  width: 80%;
+  padding: 5px;
+}
+
+.product .img-container {
+  width: 140px;
+  height: unset;
+  background: #65195e;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.product .img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: inherit;
+}
+
+.product button {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  gap: 5px;
+}
+
+.product button i {
+  -webkit-box-ordinal-group: -4;
+      -ms-flex-order: -5;
+          order: -5;
+}
+
+.quantity textarea {
+  width: 300px;
+  min-height: 150px;
+  margin: 18px 0px;
+  text-align: center;
+}
+
+.quantity h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer.page-footer {
+  margin: 0px !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: #12012b;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer.page-footer h6.text-uppercase.fw-bold {
+  display: block;
+  font-size: 18px;
+}
+
+footer.page-footer section.social-media {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+footer.page-footer section.social-media a {
+  font-size: 23px;
+  font-weight: 300;
+  -webkit-transition: 0.12s all linear;
+  transition: 0.12s all linear;
+}
+
+footer.page-footer section.social-media a i {
+  -webkit-transition: 0.12s all linear;
+  transition: 0.12s all linear;
+}
+
+footer.page-footer section.social-media a.facebook:hover {
+  color: #4267b2 !important;
+}
+
+footer.page-footer section.social-media a.instagram:hover {
+  color: #c13584 !important;
+}
+
+footer.page-footer section.social-media a.discord:hover {
+  color: #7289da !important;
+}
+
+footer.page-footer section.social-media a.youtube:hover {
+  color: #ff0000 !important;
+}
+
+footer.page-footer section.social-media a.telegram:hover {
+  color: #0088cc !important;
+}
+
+footer.page-footer section.social-media a.email:hover {
+  color: #bb001b !important;
+}
+
+footer.page-footer .legal,
+footer.page-footer .pages,
+footer.page-footer .pay-ways {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.page-footer .pay-ways ul li {
+  width: unset;
+  height: 23px;
+  margin: 10px;
+}
+
+footer.page-footer .pay-ways ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+footer.page-footer .pay-ways .con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+footer.page-footer .description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer.page-footer .description p {
+  font-size: 16px;
+}
+
+footer.page-footer ul {
+  list-style: none !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer.page-footer ul li {
+  margin-bottom: 16px;
+}
+
+footer.page-footer ul li:before {
+  display: none !important;
+}
+/*# sourceMappingURL=mail.css.map */

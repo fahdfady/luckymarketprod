@@ -927,7 +927,6 @@ button.btn.submit,
 
 .page-body {
 
-
     &#simple,
     &#complaints,
     &#dmca,
@@ -1755,6 +1754,10 @@ section {
     width: 100%;
     height: 100%;
 
+    .swiper-wrapper {
+        align-items: center;
+    }
+
     .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
         background: $mainColor !important;
     }
@@ -1779,8 +1782,8 @@ section {
 
         img {
             display: block;
-            width: 100%;
-            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
             object-fit: cover;
             border-radius: 4px;
         }
@@ -2180,7 +2183,7 @@ form {
         font-size: 18px;
     }
 
-    input[type="submit"] {
+    input[type="button"] {
         height: 48px;
         line-height: 48px;
         padding: 0 30px;
@@ -2215,6 +2218,7 @@ form {
             .dropdown-container {
                 width: calc(50% - 10px);
                 @include centerAll();
+                margin: auto;
             }
         }
 
