@@ -90,6 +90,15 @@ a.navbar-brand img {
   margin: 22px 0px;
 }
 
+.icon i {
+  color: #91157e;
+  font-size: 88px;
+}
+
+p a {
+  color: #0d6efd;
+}
+
 button {
   background: #91157e !important;
   padding: 10px !important;
@@ -162,6 +171,18 @@ button:hover {
 }
 .quantity h4 {
   display: flex;
+}
+
+ul.details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 20px;
+  font-weight: 700;
+}
+ul.details li .detail {
+  color: #91157e;
 }
 
 footer.page-footer {
