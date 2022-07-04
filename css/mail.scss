@@ -221,15 +221,14 @@ button {
     }
 }
 
+textarea {
+    width: 300px;
+    min-height: 150px;
+    margin: 18px 0px;
+    text-align: center;
+}
+
 .quantity {
-
-    textarea {
-        width: 300px;
-        min-height: 150px;
-        margin: 18px 0px;
-        text-align: center;
-    }
-
     h4 {
         display: flex;
     }

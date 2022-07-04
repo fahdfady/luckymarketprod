@@ -163,12 +163,13 @@ button:hover {
   order: -5;
 }
 
-.quantity textarea {
+textarea {
   width: 300px;
   min-height: 150px;
   margin: 18px 0px;
   text-align: center;
 }
+
 .quantity h4 {
   display: flex;
 }
