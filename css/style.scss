@@ -829,13 +829,32 @@ nav {
     }
 }
 
+.simple-page .create-store {
+    background: $secondColor !important;
+    padding: 8px !important;
+    color: #ededed !important;
+    font-weight: 600 !important;
+    width: 290px;
+    font-size: 16px;
+    @include centerAll();
+
+    small {
+        margin: 0px 3px;
+        font-size: 12px;
+    }
+
+    &:hover {
+        background: transparent !important;
+        color: rgba(0, 0, 0, 0.55) !important;
+    }
+}
+
+
+/*#login*/
 nav li.nav-item.create-store a,
 .pricing-compare-link,
 section.download .app-btn,
 section.trouble input[type="submit"],
-
-/*#login*/
-
 button.btn.submit,
 #register button.btn.submit,
 #report button.btn.submit {

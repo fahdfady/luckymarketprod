@@ -861,6 +861,35 @@ nav .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.simple-page .create-store {
+  background: #91157e !important;
+  padding: 8px !important;
+  color: #ededed !important;
+  font-weight: 600 !important;
+  width: 290px;
+  font-size: 16px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.simple-page .create-store small {
+  margin: 0px 3px;
+  font-size: 12px;
+}
+
+.simple-page .create-store:hover {
+  background: transparent !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+/*#login*/
 nav li.nav-item.create-store a,
 .pricing-compare-link,
 section.download .app-btn,

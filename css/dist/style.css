@@ -633,6 +633,27 @@ nav .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.simple-page .create-store {
+  background: #91157e !important;
+  padding: 8px !important;
+  color: #ededed !important;
+  font-weight: 600 !important;
+  width: 290px;
+  font-size: 16px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.simple-page .create-store small {
+  margin: 0px 3px;
+  font-size: 12px;
+}
+.simple-page .create-store:hover {
+  background: transparent !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+/*#login*/
 nav li.nav-item.create-store a,
 .pricing-compare-link,
 section.download .app-btn,
@@ -1411,6 +1432,9 @@ section.report {
   width: 100%;
   height: 100%;
 }
+.swiper .swiper-wrapper {
+  align-items: center;
+}
 .swiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   background: #c246c6 !important;
 }
@@ -1433,8 +1457,8 @@ section.report {
 }
 .swiper .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -1787,8 +1811,8 @@ form textarea {
   outline: none;
   font-size: 18px;
 }
-section.suggestions input[type=submit],
-form input[type=submit] {
+section.suggestions input[type=button],
+form input[type=button] {
   height: 48px;
   line-height: 48px;
   padding: 0 30px;
@@ -1798,8 +1822,8 @@ form input[type=submit] {
   outline: none;
   border: 1px solid;
 }
-section.suggestions input[type=submit]:hover,
-form input[type=submit]:hover {
+section.suggestions input[type=button]:hover,
+form input[type=button]:hover {
   color: #333333;
   font-size: 17px !important;
 }
