@@ -829,23 +829,31 @@ nav {
     }
 }
 
-.simple-page .create-store {
-    background: $secondColor !important;
-    padding: 8px !important;
-    color: #ededed !important;
-    font-weight: 600 !important;
-    width: 290px;
-    font-size: 16px;
-    @include centerAll();
+.simple-page {
+    margin-top: 10px;
 
-    small {
-        margin: 0px 3px;
-        font-size: 12px;
+    section.features .feature-item .feature-details p {
+        min-height: 60px;
     }
 
-    &:hover {
-        background: transparent !important;
-        color: rgba(0, 0, 0, 0.55) !important;
+    .create-store {
+        background: $secondColor !important;
+        padding: 8px !important;
+        color: #ededed !important;
+        font-weight: 600 !important;
+        width: 290px;
+        font-size: 16px;
+        @include centerAll();
+
+        small {
+            margin: 0px 3px;
+            font-size: 12px;
+        }
+
+        &:hover {
+            background: transparent !important;
+            color: rgba(0, 0, 0, 0.55) !important;
+        }
     }
 }
 
@@ -3232,6 +3240,13 @@ footer.page-footer {
 
 @media screen and (max-width:480px) {
     .page-body {
+        &.simple-page {
+            .card-body.m-4 {
+                margin: 0 !important;
+                padding: 0;
+            }
+        }
+
         section {
             &.blog {
                 width: 95%;
