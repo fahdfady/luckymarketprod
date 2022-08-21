@@ -871,6 +871,7 @@ nav .navbar-toggler .navbar-toggler-icon {
 
 .simple-page .create-store {
   background: #91157e !important;
+  border: 1px solid #91157e;
   padding: 8px !important;
   color: #ededed !important;
   font-weight: 600 !important;
