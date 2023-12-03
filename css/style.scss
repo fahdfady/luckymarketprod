@@ -829,13 +829,41 @@ nav {
     }
 }
 
+.simple-page {
+    margin-top: 10px;
+
+    section.features .feature-item .feature-details p {
+        min-height: 60px;
+    }
+
+    .create-store {
+        background: $secondColor !important;
+        border: 1px solid $secondColor;
+        padding: 8px !important;
+        color: #ededed !important;
+        font-weight: 600 !important;
+        width: 290px;
+        font-size: 16px;
+        @include centerAll();
+
+        small {
+            margin: 0px 3px;
+            font-size: 12px;
+        }
+
+        &:hover {
+            background: transparent !important;
+            color: rgba(0, 0, 0, 0.55) !important;
+        }
+    }
+}
+
+
+/*#login*/
 nav li.nav-item.create-store a,
 .pricing-compare-link,
 section.download .app-btn,
 section.trouble input[type="submit"],
-
-/*#login*/
-
 button.btn.submit,
 #register button.btn.submit,
 #report button.btn.submit {
@@ -926,7 +954,6 @@ button.btn.submit,
 }
 
 .page-body {
-
 
     &#simple,
     &#complaints,
@@ -1755,6 +1782,10 @@ section {
     width: 100%;
     height: 100%;
 
+    .swiper-wrapper {
+        align-items: center;
+    }
+
     .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
         background: $mainColor !important;
     }
@@ -1779,8 +1810,8 @@ section {
 
         img {
             display: block;
-            width: 100%;
-            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
             object-fit: cover;
             border-radius: 4px;
         }
@@ -2066,7 +2097,6 @@ section.pricing,
     }
 }
 
-
 .text {
     /* padding: 0.79rem 1rem; */
     border: solid 1px;
@@ -2103,6 +2133,117 @@ section.pricing,
         font-size: 18px;
         direction: inherit;
         @include centerAll();
+    }
+}
+
+.selectize-input {
+    border: none;
+    outline: none;
+    background: transparent !important;
+}
+
+.selectize-control.multi .selectize-input [data-value] {
+    background-color: $secondColor;
+    background-image: linear-gradient(to bottom, $secondColor, $mainColor);
+    background-repeat: repeat-x;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    transition: .15s linear all;
+
+    &.active {
+        background-color: $secondColor;
+        background-image: linear-gradient(to bottom, $mainColor, $secondColor);
+        background-repeat: repeat-x;
+    }
+}
+
+.selectize-dropdown-content {
+    background: #8c26f9;
+    background-image: linear-gradient(to bottom, $secondColor, $mainColor);
+    color: #fff;
+    font-size: 16px;
+    max-height: 200px;
+    overflow-y: scroll;
+
+    .active:not(.selected) {
+        color: $thirdColor;
+    }
+
+}
+
+.selectize-dropdown .selected {
+    background-color: $thirdColor;
+}
+
+.dropdown-container.dropdown-container-selectize {
+
+    .dropdown.dropdown-selectize {
+        width: 100%;
+
+        svg,
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.selectize-control {
+    width: calc(100% - 6px);
+}
+
+.store {
+    @include centerAll();
+    flex-direction: column;
+    gap: 10px 0;
+
+    font-size: 18px;
+    text-align: center;
+    padding: 6px;
+    min-height: 280px;
+    background: linear-gradient(to bottom, #fdf9fd, #f6ebfa);
+    border: 1px #32002d6b solid;
+    border-radius: 2px;
+    /* box-shadow: 1px 3px 3px 2px #0006; */
+
+    img.store-logo {
+        width: 110px;
+        height: auto;
+        margin: 6px 0;
+    }
+
+    .store-title {
+        @include centerY();
+        flex-wrap: wrap;
+        gap: 4px;
+
+        h4 {
+            font-size: 22px;
+        }
+
+        * {
+            margin: 0;
+        }
+    }
+
+    .rate {
+        i {
+            color: rgb(236, 201, 0);
+        }
+    }
+
+    .platforms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+
+        svg {
+            fill: #000;
+        }
+
+        .st0 {
+            fill: #fff;
+        }
     }
 }
 
@@ -2180,7 +2321,7 @@ form {
         font-size: 18px;
     }
 
-    input[type="submit"] {
+    input[type="button"] {
         height: 48px;
         line-height: 48px;
         padding: 0 30px;
@@ -2210,11 +2351,14 @@ form {
         }
 
         &.two-inputs {
+            flex-wrap: wrap;
+            gap: 10px 5px;
 
             .text,
             .dropdown-container {
                 width: calc(50% - 10px);
                 @include centerAll();
+                margin: auto;
             }
         }
 
@@ -3040,6 +3184,11 @@ footer.page-footer {
     .articles {
         @include centerX();
     }
+
+    .dropdown-container.dropdown-container-selectize {
+        width: 100% !important;
+        padding: 0 4px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -3209,6 +3358,13 @@ footer.page-footer {
 
 @media screen and (max-width:480px) {
     .page-body {
+        &.simple-page {
+            .card-body.m-4 {
+                margin: 0 !important;
+                padding: 0;
+            }
+        }
+
         section {
             &.blog {
                 width: 95%;

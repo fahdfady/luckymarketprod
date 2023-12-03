@@ -1,0 +1,631 @@
+<html lang="en">
+
+    <!--
+    google fonts
+    bootstrap 5.0.2
+    swiperjs 8.0.7
+    wowjs
+-->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lucky Market">
+        <meta name="description" content="Lucky Market, a platform for e-stores">
+        <link rel="icon" href="img/logo.webp">
+
+        <title>
+            Stores
+            -
+            Lucky Market
+        </title>
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap"
+            rel="stylesheet">
+
+        <!-- linawesome -->
+        <link rel="stylesheet" href="css/lineawesome/css/line-awesome.min.css">
+
+        <!-- swiperjs -->
+        <link rel="stylesheet" href="css/swiper.min.css">
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- animate.css -->
+        <link rel="stylesheet" href="css/animate.min.css">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.15.2/css/selectize.default.min.css"
+            integrity="sha512-pTaEn+6gF1IeWv3W1+7X7eM60TFu/agjgoHmYhAfLEU8Phuf6JKiiE8YmsNC0aCgQv4192s4Vai8YZ6VNM6vyQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--! custom main css !-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+
+        <div class="page-container">
+            <div class="not-footer">
+
+                <div class="page-header">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index_en.html">
+                                <img src="img/logo.webp" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index_en.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="how-to-buy_en.html">how to buy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="how-to-sell_en.html">how to sell</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="plans_en.html">pricing plans</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="las la-language"></i>
+                                            Langauges
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">العربية</a></li>
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="las la-money-bill-wave"></i>
+                                            payment currency
+                                        </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="las la-pound-sign"></i>
+                                                    Egyptian pound
+
+                                                    ( Currently Used)
+                                                </a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="las la-euro-sign"></i>
+                                                    Euro
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="las la-dollar-sign"></i>
+                                                    American Dollar
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="login_en.html">sign in</a>
+                                    </li>
+                                    <li class="nav-item create-store">
+                                        <a class="nav-link btn" href="register_en.html"> Create Your Store <small> ( for
+                                                free ) </small>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="page-body" id="stores">
+                    <section class="stores">
+                        <div class="row justify-content-center">
+                            <img src="img/logo.webp" alt="Lucky Market Logo" width="150" height="150" data-nimg="1"
+                                decoding="async" style="max-width:150px; height:auto" />
+                        </div>
+
+                        <div class="mx-auto col-md-9 col-lg-5 my-2">
+                            <form class="d-flex flex-column gap-2">
+                                <div class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                                </div>
+
+                                <div class="form-group two-inputs">
+                                    <div class="dropdown-container dropdown-container-selectize">
+                                        <div class="dropdown dropdown-selectize">
+                                            <i class="las la-plus-circle"></i>
+                                            <select title="platform" name="platform" multiple
+                                                placeholder="choose a platform" class="normalize select-platform">
+
+                                                <option value=""></option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-container dropdown-container-selectize">
+                                        <div class="dropdown dropdown-selectize">
+                                            <i class="las la-sort-amount-down"></i>
+                                            <select title="sort" name="sort" multiple placeholder="sort stores by"
+                                                class="normalize select-sort">
+
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                        <div class="container d-flex flex-wrap justify-content-center g-y-4">
+                            <div class="col-6 col-md-4 col-lg-2 px-1">
+                                <div class="store">
+                                    <div class="store-title">
+                                        <img src="img/icons/verified.svg" alt="verified" width="25" height="25">
+                                        <h4>oyunone</h4>
+                                    </div>
+                                    <img src="img/logo.webp" alt="Merchant X" class="store-logo" width="150"
+                                        height="150">
+
+                                    <div class="rate">
+                                        <i class="las la-star"></i>
+
+                                        <small class="number">(9.09)</small>
+                                    </div>
+
+                                    <div class="sales">
+                                        <small>
+                                            (14990) sales
+                                        </small>
+                                    </div>
+
+                                    <div class="platforms">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px"
+                                            viewBox="0 0 32 32" id="Camada_1" version="1.1" xml:space="preserve">
+
+
+                                            <path
+                                                d="M6,2h20c2.2,0,4,1.8,4,4v20c0,2.2-1.8,4-4,4H6c-2.2,0-4-1.8-4-4V6C2,3.8,3.8,2,6,2z" />
+
+                                            <g>
+                                                <path class="st0"
+                                                    d="M19.9,7.2c0-0.2,0-0.5,0.1-0.7c0.1-0.9,0.6-1.4,1.5-1.5c0.6-0.1,1.3-0.1,2,0c0.9,0.1,1.4,0.7,1.5,1.7   c0,0.8,0,1.7,0,2.5c0,0,0,0,0,0.1h-1.6c0-0.1,0-0.2,0-0.2c0-0.6,0-1.3,0-1.9c0-0.4-0.1-0.6-0.4-0.7c-0.2,0-0.5,0-0.8,0   c-0.3,0-0.4,0.2-0.4,0.5c0,0.1,0,0.2,0,0.3c0,2.3,0,4.6,0,6.8c0,0.1,0,0.2,0,0.3c0,0.3,0.2,0.5,0.5,0.5c0.2,0,0.4,0,0.5,0   c0.3,0,0.5-0.2,0.5-0.5c0-0.1,0-0.3,0-0.4c0-0.7,0-1.3,0-2c0-0.1,0-0.2,0-0.2h1.6c0,0.1,0,0.1,0,0.2c0,0.9,0,1.7,0,2.6   c0,0.2,0,0.4-0.1,0.7c-0.2,0.6-0.6,1.1-1.2,1.2c-0.7,0.1-1.5,0.1-2.2,0c-0.8-0.1-1.3-0.7-1.4-1.5c0-0.2,0-0.5,0-0.7   C19.9,11.8,19.9,9.5,19.9,7.2L19.9,7.2z" />
+                                                <path class="st0" d="M17.3,5H19v11.4h-1.6V5z" />
+                                                <path class="st0"
+                                                    d="M17.4,19.2h0.9v3.3h-0.9v-1.9l-0.1,0c-0.3,0.4-0.5,0.8-0.8,1.3c-0.3-0.4-0.6-0.9-0.8-1.3h-0.1v1.9h-0.8v-3.3   h0.9c0.3,0.4,0.5,0.8,0.8,1.3C16.9,20,17.1,19.6,17.4,19.2L17.4,19.2z" />
+                                                <path class="st0"
+                                                    d="M7.1,5h3.7l0,1.6H8.8v3.2h2v1.5h-2v3.4h2.1v1.5H7.1L7.1,5z" />
+                                                <path class="st0"
+                                                    d="M10.3,22.1c-0.4,0.3-0.8,0.5-1.3,0.5c-0.9,0-1.7-0.4-1.9-1.4c-0.2-1.3,0.7-2.1,1.7-2.1c0.4,0,0.9,0.1,1.2,0.3   c0.1,0,0.1,0.1,0.2,0.1C10,19.8,9.8,20,9.6,20.2c-0.3-0.2-0.7-0.4-1.1-0.2C8.3,20,8.2,20.1,8,20.3c-0.3,0.4-0.2,1,0.1,1.3   c0.3,0.3,0.9,0.3,1.2,0.1v-0.4H8.8v-0.7h1.5L10.3,22.1L10.3,22.1z" />
+                                                <path class="st0"
+                                                    d="M18.8,27.3c-0.9,0.3-1.8,0.6-2.7,0.9c-0.1,0-0.2,0-0.4,0c-1.4-0.5-2.9-1-4.3-1.5c0,0-0.1,0-0.2-0.1h9.4v0   C20.1,26.9,19.5,27.1,18.8,27.3L18.8,27.3z" />
+                                                <path class="st0"
+                                                    d="M21.8,22.5h-2.7v-3.3h2.6v0.7h-1.8v0.6h1.6v0.7h-1.6v0.6h1.8V22.5z" />
+                                                <path class="st0"
+                                                    d="M24.5,22.4c-0.6,0.4-1.9,0.2-2.4-0.3c0.2-0.2,0.3-0.4,0.5-0.6c0.3,0.2,0.6,0.4,1,0.4c0.1,0,0.2,0,0.3,0   c0.1,0,0.1-0.1,0.2-0.2c0-0.1-0.1-0.2-0.1-0.2c-0.2-0.1-0.3-0.1-0.5-0.2c-0.2-0.1-0.4-0.1-0.6-0.2c-0.3-0.1-0.5-0.3-0.6-0.7   c0-0.4,0.1-0.8,0.4-1c0.4-0.3,0.9-0.3,1.4-0.2c0.3,0.1,0.6,0.2,0.8,0.4c-0.1,0.2-0.3,0.4-0.4,0.6c-0.3-0.1-0.6-0.2-0.9-0.3   c-0.1,0-0.2,0-0.2,0c-0.1,0-0.2,0.1-0.2,0.2c0,0.1,0.1,0.2,0.1,0.2c0.2,0.1,0.4,0.1,0.6,0.2c0.2,0.1,0.4,0.1,0.6,0.2   c0.3,0.1,0.5,0.4,0.5,0.8C25,21.9,24.9,22.2,24.5,22.4L24.5,22.4z" />
+                                                <path class="st0"
+                                                    d="M16.5,6.8c0-0.5-0.2-1.1-0.6-1.4C15.5,5.1,15.1,5,14.7,5c-0.9,0-1.8,0-2.7,0c-0.1,0-0.2,0-0.2,0v11.3h1.7v-4.1   c0.1,0,0.2,0,0.3,0c0.4,0,0.8,0,1.2,0c0.9-0.1,1.5-0.7,1.5-1.6C16.5,9.3,16.5,8.1,16.5,6.8L16.5,6.8z M14.8,10.2   c0,0.3-0.2,0.5-0.5,0.5c-0.3,0-0.6,0-0.9,0V6.6c0.3,0,0.6,0,0.8,0c0.3,0,0.5,0.2,0.5,0.6C14.8,8.2,14.8,9.2,14.8,10.2z" />
+                                                <path class="st0"
+                                                    d="M12.9,19.2h-0.8c-0.5,1.1-0.9,2.2-1.4,3.4h0.9c0.1-0.2,0.2-0.4,0.2-0.6h1.4c0.1,0.2,0.2,0.4,0.3,0.6h0.9   C13.9,21.4,13.4,20.3,12.9,19.2L12.9,19.2z M12.1,21.2c0.1-0.3,0.3-0.6,0.4-1c0.1,0.4,0.3,0.7,0.4,1H12.1z" />
+                                            </g>
+
+                                        </svg>
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px"
+                                            viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024"
+                                            xml:space="preserve">
+                                            <path
+                                                d="M247.47 358.4v.04c.07 19.17 7.72 37.53 21.27 51.09s31.92 21.2 51.09 21.27c39.86 0 72.41-32.6 72.41-72.4s-32.6-72.36-72.41-72.36-72.36 32.55-72.36 72.36z"
+                                                fill="#000000" />
+                                            <path
+                                                d="M492.38 128H324.7c-52.16 0-102.19 20.73-139.08 57.61a196.655 196.655 0 0 0-57.61 139.08V698.7c-.01 25.84 5.08 51.42 14.96 75.29s24.36 45.56 42.63 63.83 39.95 32.76 63.82 42.65a196.67 196.67 0 0 0 75.28 14.98h167.68c3.03 0 5.46-2.43 5.46-5.42V133.42c.6-2.99-1.83-5.42-5.46-5.42zm-56.11 705.88H324.7c-17.76.13-35.36-3.33-51.75-10.18s-31.22-16.94-43.61-29.67c-25.3-25.35-39.81-59.1-39.81-95.32V324.69c-.13-17.75 3.33-35.35 10.17-51.74a131.695 131.695 0 0 1 29.64-43.62c25.39-25.3 59.14-39.81 95.36-39.81h111.57v644.36zm402.12-647.67a196.655 196.655 0 0 0-139.08-57.61H580.48c-3.03 0-4.82 2.43-4.82 4.82v757.16c-.6 2.99 1.79 5.42 5.42 5.42h118.23a196.69 196.69 0 0 0 139.08-57.61A196.655 196.655 0 0 0 896 699.31V325.29a196.69 196.69 0 0 0-57.61-139.08zm-111.3 441.92c-42.83 0-77.82-34.99-77.82-77.82s34.98-77.82 77.82-77.82c42.83 0 77.82 34.99 77.82 77.82s-34.99 77.82-77.82 77.82z"
+                                                fill="#000000" />
+                                        </svg>
+
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px"
+                                            viewBox="-44 0 344 344" version="1.1" preserveAspectRatio="xMidYMid">
+                                            <defs>
+                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%"
+                                                    id="linearGradient-1">
+                                                    <stop stop-color="#FF9900" offset="0%"></stop>
+                                                    <stop stop-color="#F05A22" offset="100%"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <g>
+                                                <path
+                                                    d="M127.615795,2.37396105 C128.316104,4.17579665 127.105155,5.82443974 126.113051,7.21776199 C119.08808,17.1752744 113.565286,28.3102833 111.362232,40.2811829 C110.500866,42.7381045 110.691102,44.5685497 111.362232,44.7728064 C124.996364,43.576446 140.374543,43.7140513 153.797123,46.5809395 C178.220385,51.4976892 201.046067,63.8552175 218.590256,81.5234192 C236.083381,99.0092488 248.360665,121.667149 253.328479,145.908039 C258.836114,172.15502 255.757675,200.094414 244.742404,224.53956 C221.384195,274.45843 182.006429,316.681201 133.82374,343.446118 C132.269931,344.168312 130.030402,344.197492 128.96535,342.650977 C127.710629,341.031513 128.228565,338.726331 129.468695,337.252765 C135.968434,328.185227 140.50585,317.760843 142.97152,306.891471 C143.445688,304.637352 144.094932,302.354055 143.89797,300.034283 C143.102829,298.99841 141.78975,299.31209 140.673633,299.348564 C117.286244,301.690221 93.2204323,297.510254 72.0871623,287.180702 C49.4511468,276.274855 30.2437253,258.446166 17.5433376,236.773075 C5.77669476,216.836165 -0.409364314,193.616559 0.0210336979,170.455313 C0.101277286,149.198029 5.90070774,128.115824 16.113541,109.506582 C39.8875579,63.8625124 77.2154636,25.3455411 122.283238,0.462702249 C124.172612,-0.587760605 126.966551,0.192791655 127.615795,2.37396105 L127.615795,2.37396105 Z M120.970159,122.440406 C107.058821,124.307896 94.2271262,132.478162 86.4361931,144.120792 C81.1619942,152.115982 77.9668364,161.613917 78.0324904,171.22857 C77.6385667,184.11133 82.7741629,197.015974 91.6739175,206.295063 C99.4502601,214.669586 110.253979,220.126157 121.582929,221.585133 C133.116136,223.109763 145.159985,220.410657 154.92783,214.071405 C164.856163,207.768628 172.420955,197.818411 175.80578,186.547821 C182.15962,166.982949 174.543765,144.062434 157.969796,131.974816 C147.560001,124.052575 133.911279,120.536442 120.970159,122.440406 L120.970159,122.440406 L120.970159,122.440406 Z"
+                                                    fill="url(#linearGradient-1)"></path>
+                                            </g>
+                                        </svg>
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="25px"
+                                            height="25px" viewBox="0 0 32 32" version="1.1">
+                                            <title>steam</title>
+                                            <path
+                                                d="M18.102 12.129c0-0 0-0 0-0.001 0-1.564 1.268-2.831 2.831-2.831s2.831 1.268 2.831 2.831c0 1.564-1.267 2.831-2.831 2.831-0 0-0 0-0.001 0h0c-0 0-0 0-0.001 0-1.563 0-2.83-1.267-2.83-2.83 0-0 0-0 0-0.001v0zM24.691 12.135c0-2.081-1.687-3.768-3.768-3.768s-3.768 1.687-3.768 3.768c0 2.081 1.687 3.768 3.768 3.768v0c2.080-0.003 3.765-1.688 3.768-3.767v-0zM10.427 23.76l-1.841-0.762c0.524 1.078 1.611 1.808 2.868 1.808 1.317 0 2.448-0.801 2.93-1.943l0.008-0.021c0.155-0.362 0.246-0.784 0.246-1.226 0-1.757-1.424-3.181-3.181-3.181-0.405 0-0.792 0.076-1.148 0.213l0.022-0.007 1.903 0.787c0.852 0.364 1.439 1.196 1.439 2.164 0 1.296-1.051 2.347-2.347 2.347-0.324 0-0.632-0.066-0.913-0.184l0.015 0.006zM15.974 1.004c-7.857 0.001-14.301 6.046-14.938 13.738l-0.004 0.054 8.038 3.322c0.668-0.462 1.495-0.737 2.387-0.737 0.001 0 0.002 0 0.002 0h-0c0.079 0 0.156 0.005 0.235 0.008l3.575-5.176v-0.074c0.003-3.12 2.533-5.648 5.653-5.648 3.122 0 5.653 2.531 5.653 5.653s-2.531 5.653-5.653 5.653h-0.131l-5.094 3.638c0 0.065 0.005 0.131 0.005 0.199 0 0.001 0 0.002 0 0.003 0 2.342-1.899 4.241-4.241 4.241-2.047 0-3.756-1.451-4.153-3.38l-0.005-0.027-5.755-2.383c1.841 6.345 7.601 10.905 14.425 10.905 8.281 0 14.994-6.713 14.994-14.994s-6.713-14.994-14.994-14.994c-0 0-0.001 0-0.001 0h0z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-2 px-1">
+                                <div class="store">
+                                    <div class="store-title">
+                                        <h4>oyunone</h4>
+                                    </div>
+                                    <img src="img/logo.webp" alt="Merchant X" class="store-logo" width="150"
+                                        height="150">
+
+                                    <div class="rate">
+                                        <i class="las la-star"></i>
+
+                                        <small class="number">(9.09)</small>
+                                    </div>
+
+                                    <div class="sales">
+                                        <small>
+                                            (14990) sales
+                                        </small>
+                                    </div>
+
+                                    <div class="platforms">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px"
+                                            viewBox="-44 0 344 344" version="1.1" preserveAspectRatio="xMidYMid">
+                                            <defs>
+                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%"
+                                                    id="linearGradient-1">
+                                                    <stop stop-color="#FF9900" offset="0%"></stop>
+                                                    <stop stop-color="#F05A22" offset="100%"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <g>
+                                                <path
+                                                    d="M127.615795,2.37396105 C128.316104,4.17579665 127.105155,5.82443974 126.113051,7.21776199 C119.08808,17.1752744 113.565286,28.3102833 111.362232,40.2811829 C110.500866,42.7381045 110.691102,44.5685497 111.362232,44.7728064 C124.996364,43.576446 140.374543,43.7140513 153.797123,46.5809395 C178.220385,51.4976892 201.046067,63.8552175 218.590256,81.5234192 C236.083381,99.0092488 248.360665,121.667149 253.328479,145.908039 C258.836114,172.15502 255.757675,200.094414 244.742404,224.53956 C221.384195,274.45843 182.006429,316.681201 133.82374,343.446118 C132.269931,344.168312 130.030402,344.197492 128.96535,342.650977 C127.710629,341.031513 128.228565,338.726331 129.468695,337.252765 C135.968434,328.185227 140.50585,317.760843 142.97152,306.891471 C143.445688,304.637352 144.094932,302.354055 143.89797,300.034283 C143.102829,298.99841 141.78975,299.31209 140.673633,299.348564 C117.286244,301.690221 93.2204323,297.510254 72.0871623,287.180702 C49.4511468,276.274855 30.2437253,258.446166 17.5433376,236.773075 C5.77669476,216.836165 -0.409364314,193.616559 0.0210336979,170.455313 C0.101277286,149.198029 5.90070774,128.115824 16.113541,109.506582 C39.8875579,63.8625124 77.2154636,25.3455411 122.283238,0.462702249 C124.172612,-0.587760605 126.966551,0.192791655 127.615795,2.37396105 L127.615795,2.37396105 Z M120.970159,122.440406 C107.058821,124.307896 94.2271262,132.478162 86.4361931,144.120792 C81.1619942,152.115982 77.9668364,161.613917 78.0324904,171.22857 C77.6385667,184.11133 82.7741629,197.015974 91.6739175,206.295063 C99.4502601,214.669586 110.253979,220.126157 121.582929,221.585133 C133.116136,223.109763 145.159985,220.410657 154.92783,214.071405 C164.856163,207.768628 172.420955,197.818411 175.80578,186.547821 C182.15962,166.982949 174.543765,144.062434 157.969796,131.974816 C147.560001,124.052575 133.911279,120.536442 120.970159,122.440406 L120.970159,122.440406 L120.970159,122.440406 Z"
+                                                    fill="url(#linearGradient-1)"></path>
+                                            </g>
+                                        </svg>
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="25px"
+                                            height="25px" viewBox="0 0 32 32" version="1.1">
+                                            <title>steam</title>
+                                            <path
+                                                d="M18.102 12.129c0-0 0-0 0-0.001 0-1.564 1.268-2.831 2.831-2.831s2.831 1.268 2.831 2.831c0 1.564-1.267 2.831-2.831 2.831-0 0-0 0-0.001 0h0c-0 0-0 0-0.001 0-1.563 0-2.83-1.267-2.83-2.83 0-0 0-0 0-0.001v0zM24.691 12.135c0-2.081-1.687-3.768-3.768-3.768s-3.768 1.687-3.768 3.768c0 2.081 1.687 3.768 3.768 3.768v0c2.080-0.003 3.765-1.688 3.768-3.767v-0zM10.427 23.76l-1.841-0.762c0.524 1.078 1.611 1.808 2.868 1.808 1.317 0 2.448-0.801 2.93-1.943l0.008-0.021c0.155-0.362 0.246-0.784 0.246-1.226 0-1.757-1.424-3.181-3.181-3.181-0.405 0-0.792 0.076-1.148 0.213l0.022-0.007 1.903 0.787c0.852 0.364 1.439 1.196 1.439 2.164 0 1.296-1.051 2.347-2.347 2.347-0.324 0-0.632-0.066-0.913-0.184l0.015 0.006zM15.974 1.004c-7.857 0.001-14.301 6.046-14.938 13.738l-0.004 0.054 8.038 3.322c0.668-0.462 1.495-0.737 2.387-0.737 0.001 0 0.002 0 0.002 0h-0c0.079 0 0.156 0.005 0.235 0.008l3.575-5.176v-0.074c0.003-3.12 2.533-5.648 5.653-5.648 3.122 0 5.653 2.531 5.653 5.653s-2.531 5.653-5.653 5.653h-0.131l-5.094 3.638c0 0.065 0.005 0.131 0.005 0.199 0 0.001 0 0.002 0 0.003 0 2.342-1.899 4.241-4.241 4.241-2.047 0-3.756-1.451-4.153-3.38l-0.005-0.027-5.755-2.383c1.841 6.345 7.601 10.905 14.425 10.905 8.281 0 14.994-6.713 14.994-14.994s-6.713-14.994-14.994-14.994c-0 0-0.001 0-0.001 0h0z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-2 px-1">
+                                <div class="store">
+                                    <div class="store-title">
+                                        <img src="img/icons/verified.svg" alt="verified" width="25" height="25">
+                                        <h4>oyunone</h4>
+                                    </div>
+                                    <img src="img/logo.webp" alt="Merchant X" class="store-logo" width="150"
+                                        height="150">
+
+                                    <div class="rate">
+                                        <i class="las la-star"></i>
+
+                                        <small class="number">(9.09)</small>
+                                    </div>
+
+                                    <div class="sales">
+                                        <small>
+                                            (14990) sales
+                                        </small>
+                                    </div>
+
+                                    <div class="platforms">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" version="1.1" id="Capa_1" width="25px" height="25px" viewBox="0 0 973.1 973.1" xml:space="preserve">
+                                            <g>
+                                                <path d="M502.29,788.199h-47c-33.1,0-60,26.9-60,60v64.9c0,33.1,26.9,60,60,60h47c33.101,0,60-26.9,60-60v-64.9   C562.29,815,535.391,788.199,502.29,788.199z"/>
+                                                <path d="M170.89,285.8l86.7,10.8c27.5,3.4,53.6-12.4,63.5-38.3c12.5-32.7,29.9-58.5,52.2-77.3c31.601-26.6,70.9-40,117.9-40   c48.7,0,87.5,12.8,116.3,38.3c28.8,25.6,43.1,56.2,43.1,92.1c0,25.8-8.1,49.4-24.3,70.8c-10.5,13.6-42.8,42.2-96.7,85.9   c-54,43.7-89.899,83.099-107.899,118.099c-18.4,35.801-24.8,75.5-26.4,115.301c-1.399,34.1,25.8,62.5,60,62.5h49   c31.2,0,57-23.9,59.8-54.9c2-22.299,5.7-39.199,11.301-50.699c9.399-19.701,33.699-45.701,72.699-78.1   C723.59,477.8,772.79,428.4,795.891,392c23-36.3,34.6-74.8,34.6-115.5c0-73.5-31.3-138-94-193.4c-62.6-55.4-147-83.1-253-83.1   c-100.8,0-182.1,27.3-244.1,82c-52.8,46.6-84.9,101.8-96.2,165.5C139.69,266.1,152.39,283.5,170.89,285.8z"/>
+                                            </g>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-2 px-1">
+                                <div class="store">
+                                    <img src="img/logo.webp" alt="Merchant X" class="store-logo" width="150"
+                                        height="150">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-2 px-1">
+                                <div class="store">
+                                    <img src="img/logo.webp" alt="Merchant X" class="store-logo" width="150"
+                                        height="150">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-2 px-1">
+                                <div class="store">
+                                    <img src="img/logo.webp" alt="Merchant X" class="store-logo" width="150"
+                                        height="150">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <footer class="page-footer text-center text-lg-start bg-light text-muted">
+                <!-- Section: Social media -->
+                <section class="social-media justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Contact us on social media:</span>
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+                        <a href="" class="me-2 text-reset facebook">
+                            <i class="lab la-facebook-square"></i>
+                        </a>
+                        <a href="" class="me-2 text-reset youtube">
+                            <i class="lab la-youtube"></i>
+                        </a>
+                        <a href="" class="me-2 text-reset discord">
+                            <i class="lab la-discord"></i>
+                        </a>
+                        <a href="" class="me-2 text-reset email">
+                            <i class="las la-envelope"></i>
+                        </a>
+                        <a href="" class="me-2 text-reset telegram">
+                            <i class="lab la-telegram-plane"></i>
+                        </a>
+                        <a href="" class="me-2 text-reset instagram">
+                            <i class="lab la-instagram"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="page-links">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="description col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Lucky Market
+                                </h6>
+                                <p>
+
+                                    The easiest platform for e-commerce, enabling the merchant to deliver the product to
+                                    the
+                                    customer with an immediate delivery system and We offer several ways to pay and
+                                    provide
+                                    you with a free website and integrated support
+                                    to serve you throughout the day.
+
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="legal col-md-2 col-6 col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Legal
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="terms_en.html" class="text-reset">Terms and conditions</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="DMCA_en.html" class="text-reset">DMCA</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="complaints_en.html" class="text-reset">complaints</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="privacy.html" class="text-reset">privacy and policy</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="cookies.html" class="text-reset">cookies police</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="faq.html" class="text-reset">FAQs</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="pages col-md-3 col-6 col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    links
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="plans_en.html" class="text-reset">pricing</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog_en.html" class="text-reset">blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-us" class="text-reset">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="how-to-buy_en" class="text-reset">how to buy</a>
+                                    </li>
+                                    <li>
+                                        <a href="how-to-sell_en" class="text-reset">how to sell</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="pay-ways col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    payment methods
+                                </h6>
+                                <ul class="con">
+                                    <li>
+                                        <img src="img/icons/lucky-market.webp" alt="lucky-market wallet">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/master-card.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/paypal.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/Visa.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/masary.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/CIB-wallet.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/aman.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/airtm.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/meeza.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/momken.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/etisalat-cash.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/abk-ahly.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/vodafone-cash.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/orange-cash.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/etisalat-cash.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/icons/qahera-cash.webp" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2022 Copyright:
+                    <a class="text-reset fw-bold" href="">Lucky Market</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+
+        <!-- jquery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <!-- swiperjs -->
+        <script src="js/swiper.bundle.min.js"></script>
+        <script src="js/swiperjs.js"></script>
+
+        <!-- Wowjs -->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+        <script src="js/bootstrap-select.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.15.2/js/selectize.min.js"
+            integrity="sha512-IOebNkvA/HZjMM7MxL0NYeLYEalloZ8ckak+NDtOViP7oiYzG5vn6WVXyrJDiJPhl4yRdmNAG49iuLmhkUdVsQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+
+            let platforms = [
+                { img: "img/icons/platforms/origin.svg", name: "origin" },
+                { img: "img/icons/platforms/epic.svg", name: "epic games" },
+                { img: "img/icons/platforms/steam.svg", name: "steam" },
+                { img: "img/icons/platforms/switch.svg", name: "nintendo switch" },
+            ];
+
+
+            $('.normalize.select-platform').selectize({
+                normalize: true,
+                labelField: 'name',
+                valueField: 'img',
+                searchField: ['name', 'code'],
+                options: platforms,
+                render: {
+                    item: function (item, escape) {
+                        return `<div><img src='${escape(item.img)}' alt='${escape(item.name)}' />  ${escape(item.name)} </div>`;
+                    },
+                    option: function (item, escape) {
+                        return `<div><img src='${escape(item.img)}' alt='${escape(item.name)}' />  ${escape(item.name)} </div>`;
+                    }
+                },
+            });
+
+            $('.normalize.select-sort').selectize({
+                normalize: true,
+                maxItems: 1,
+                options: [
+                    { sorter: 'highest rate' },
+                    { sorter: 'best sellers' },
+                ],
+                valueField: "sorter",
+                labelField: "sorter",
+            });
+        </script>
+        <!--! custom main script !-->
+        <script src="js/script.js"></script>
+    </body>
+
+</html>

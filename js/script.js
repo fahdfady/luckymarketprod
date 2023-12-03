@@ -66,6 +66,7 @@ $("html:lang(ar) form .form-group input").attr("oninvalid", "this.setCustomValid
 // setting error to null after typing
 $("form .form-group input").attr("onchange", "this.setCustomValidity('');");
 
+
 // ?? FAQ
 $(document).ready(function () {
     $(".question").click(function () {
