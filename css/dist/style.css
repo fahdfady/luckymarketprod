@@ -253,6 +253,12 @@ html:lang(en) .page-body ul {
 html:lang(en) .page-body ul li::marker {
   font-size: 24px;
 }
+html:lang(en) .page-body ul.container {
+  list-style: none;
+}
+html:lang(en) .page-body ul.container li::marker {
+  font-size: unset;
+}
 html:lang(en) .page-body .info-col .info-btn, html:lang(en) .page-body#plans .info-col .info-btn {
   right: 0px;
   left: unset;
@@ -1821,7 +1827,13 @@ section.pricing .pricing-compare .pricing-compare-link,
   background: linear-gradient(to bottom, #fdf9fd, #f6ebfa);
   border: 1px #32002d6b solid;
   border-radius: 2px;
+  transition: 0.15s all ease-in-out;
   /* box-shadow: 1px 3px 3px 2px #0006; */
+}
+.store:hover, .store:focus {
+  background: #f2cffa;
+  background: linear-gradient(to bottom, #fdf6ff, #e491ff, #cf39ff);
+  box-shadow: 0px 3px 9px #1c001a7d;
 }
 .store img.store-logo {
   width: 110px;

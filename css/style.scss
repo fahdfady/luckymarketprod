@@ -375,6 +375,16 @@ html:lang(en) {
                     font-size: 24px;
                 }
             }
+
+            &.container {
+                list-style: none;
+
+                li {
+                    &::marker {
+                        font-size: unset;
+                    }
+                }
+            }
         }
 
         .info-col,
@@ -2204,7 +2214,16 @@ section.pricing,
     background: linear-gradient(to bottom, #fdf9fd, #f6ebfa);
     border: 1px #32002d6b solid;
     border-radius: 2px;
+    transition: .15s all ease-in-out;
+
     /* box-shadow: 1px 3px 3px 2px #0006; */
+    &:hover,
+    &:focus {
+        background: #f2cffa;
+        background: linear-gradient(to bottom, #fdf6ff, #e491ff, #cf39ff);
+        box-shadow: 0px 3px 9px #1c001a7d;
+        // color: #fff;
+    }
 
     img.store-logo {
         width: 110px;
